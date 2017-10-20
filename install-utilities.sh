@@ -1,6 +1,8 @@
 #!/bin/bash
+set -e
 
-sudo pacman -S firefox
+sudo pacman -S meld
+
 
 
 echo "################################################################"
