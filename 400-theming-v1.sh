@@ -11,6 +11,7 @@ echo "All the theming goes in here"
 echo "Pacman installation"
 
 sudo pacman -S arc-gtk-theme --noconfirm --needed
+sudo pacman -S adapta-gtk-theme --noconfirm --needed
 sudo pacman -S variety --noconfirm --needed
 
 
