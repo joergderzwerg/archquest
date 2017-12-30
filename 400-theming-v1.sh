@@ -13,14 +13,11 @@ echo "Pacman installation"
 sudo pacman -S arc-gtk-theme --noconfirm --needed
 sudo pacman -S adapta-gtk-theme --noconfirm --needed
 sudo pacman -S variety --noconfirm --needed
+sudo pacman -S papirus-icon-theme --noconfirm --needed
 
 
 echo "All the theming goes in here"
 echo "AUR installation"
-
-packer -S sardi-icons --noconfirm --noedit
-packer -S sardi-mono-papirus-colora-variations-icons-git  --noconfirm --noedit
-
 
 packer -S xcursor-breeze --noconfirm --noedit
 

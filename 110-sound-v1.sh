@@ -10,6 +10,9 @@ set -e
 sudo pacman -S pulseaudio pulseaudio-alsa --noconfirm --needed
 sudo pacman -S alsa-utils alsa-plugins alsa-firmware alsa-lib --noconfirm --needed
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly  gstreamer  --noconfirm --needed
+sudo pacman -S vlc --noconfirm --needed
+sudo pacman -S audacious --noconfirm --needed 
+sudo pacman -S f2fs-tools --noconfirm --needed
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
